@@ -1,0 +1,184 @@
+.head {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.googlemeet{
+    position: relative;
+    bottom: 0px;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 124px;
+}
+.help-text {
+    font-size: 22px;
+    padding-left: 4px;
+    color: #5f6368;
+ }
+
+.action-btn {
+    display: flex;
+    align-items: center;
+}
+.icon-block {
+    font-size: 20px;
+    padding: 10px;
+    color: #5f6368;
+}
+
+.bento-menu {
+    position: absolute;
+   
+    top: 40px;
+    right: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    height : 22px;
+    width : 22px;
+  }
+  
+  .bento-dot {
+    width : 6px;
+    height: 6px;
+    border-radius: 999px;
+    background:#000000;
+    overflow: hidden;
+}
+
+.profileimage{
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+.profileimage > img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Personimage{
+    float: right;
+    position: relative;
+    margin-right:0px;
+    margin-top: 120px 
+}
+  
+.content{
+  
+    padding: 10px;
+
+    max-width: 650px;
+    border-radius: 5px;
+
+}
+
+.content > img{
+    width:80%;
+    
+    border-radius: 5px;
+}
+
+
+.contentPara > h2{
+    position: relative;
+    top: 100px;
+    left: 120px;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
+.contentPara> span{
+    position: relative;
+    top: 60px;
+    left: 120px;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.contentPara > p{
+    position: relative;
+    top: 60px;
+    left: 120px;
+    font-size: 24px;
+    color:gray;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.left {
+    position: relative;
+    top: 80px;
+    border: 1px solid ;
+    padding: 20px;    
+    width: 20%;
+
+    background-color:blue;
+    color: white;
+   
+}
+
+.material-icons-outlined{
+    color:white;
+}
+
+  
+.right {
+    position: relative;
+    top: 80px;
+    right: 90px;
+    border: 1px solid ;
+    width: 25%;
+}
+
+.right > h6{
+
+}
+.google{
+    top:30px;
+    left:40px;
+    position:absolute;
+}
+.center > h2{
+    position:relative;
+    right: 250px;
+    bottom:100px;
+    text-align: right;
+}
+.center > p{
+    position:relative;
+    right: 250px;
+    bottom:120px;
+    text-align: right;
+}
+.settings span{
+    position: relative;
+    left:120px;
+    top: 21px;
+}
+
+.helpbutton span{
+    position: relative;
+    left:600px;
+    top: 22px;
+}
+ 
+
+
